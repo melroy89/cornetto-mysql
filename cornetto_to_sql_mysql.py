@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
+Cornetto to MySQL Convertor
+===========================
 The "Cornetto to MySQL Convertor" converts the Cornetto XML files to SQL file for importing the data into a MySQL database.
 
 NOTE:
@@ -9,7 +11,7 @@ NOTE:
 
 
 Requirements
-============
+------------
 In order to use this Cornetto to MySQL convertor, the following requirements should be met:
 	- Python 2.7 is installed
 	- MySQL database is installed & running
@@ -22,8 +24,20 @@ Optionally:
 Note:
 	The documentation is based on GNU/Linux operating system, but it should also work with Windows or Mac OS X.
 
-Installation
-============
+Installation Convertor
+----------------------
+1. Copy both cdbxx.lu.xml (lexical unit) & cdbxx.syn.xml (synset) files to this folder.
+2. Rename the files respectively to cdb_lu.xml and cdb_syn.xml
+3. Open a terminal window.
+4. Change directory to this folder.
+5. Execute on the command line: 
+    ./cornetto_to_sql_mysql.py
+
+6. Wait when the script is done, cornetto_mysql_data.sql file is created when finished.
+7. Go to 'Installation MySQL' for futher instructions.
+
+Installation MySQL
+------------------
 See the commands below, which should be executed into a terminal.
 
 	1. Login into MySQL. 
@@ -39,14 +53,14 @@ Enter the commands respectively:
 	- source cornetto_mysql_data.sql;
 
 Help
-====
+----
 MySQL database can be used in all kinds of code and applications, e.g. PHP and Python often in combination with 'MySQL driver'.
 
 You can use the diagram image (cornetto_mysql.png) for the database enhanced entity–relationship (EER) diagram.
 This diagram helps you understand how the database is set up and how to write your MySQL queries.
 
 Credits & License
-=================
+-----------------
 The Cornetto Convertor to MySQL is created & developed by Melroy van den Berg.
 The code below is under Apache License, Version 2.0. Please check the LICENSE-2.0.txt file for more info.
 
