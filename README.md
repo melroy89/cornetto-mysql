@@ -31,6 +31,7 @@ Installation Convertor
 4. Change directory to this folder.
 5. Execute on the command line: 
 	```./cornetto_to_sql_mysql.py```
+
 6. Wait when the script is done, cornetto_mysql_data.sql file is created when finished.
 7. Go to 'Installation MySQL' for futher instructions.
 
