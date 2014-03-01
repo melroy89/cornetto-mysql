@@ -22,14 +22,27 @@ In order to use this Cornetto to MySQL convertor, the following requirements sho
 **Note:**
 The documentation is based on GNU/Linux operating system, but it should also work with Windows or Mac OS X.
 
-Installation
-------------
+Installation Convertor
+----------------------
+
+1. Copy both cdbxx.lu.xml (lexical unit) & cdbxx.syn.xml (synset) files to this folder.
+2. Rename the files respectively to cdb_lu.xml and cdb_syn.xml
+3. Open a terminal window.
+4. Change directory to this folder.
+5. Execute on the command line: 
+	```./cornetto_to_sql_mysql.py```
+6. Wait when the script is done, cornetto_mysql_data.sql file is created when finished.
+7. Go to 'Installation MySQL' for futher instructions.
+
+
+Installation MySQL
+------------------
 See the commands below, which should be executed into a terminal.
 
 1. Login into MySQL. 
 2. Create a MySQL database called 'cornetto' (if necessary: drop existing database).
 3. Import the scheme sql file (cornetto_mysql_scheme.sql) into the cornetto database.
-4. Increase Max Allowed Packet of the MySQL server
+4. Increase Max Allowed Packet of the MySQL server.
 5. Import the data sql file (cornetto_mysql_data.sql) into the cornetto database (get some coffee, this can take at least 10 min.).
 6. Done :) You can now use the MySQL version of the Cornetto database!
 
