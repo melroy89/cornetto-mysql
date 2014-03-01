@@ -63,7 +63,7 @@ Help
 ----
 MySQL database can be used in all kinds of code and applications, e.g. PHP and Python often in combination with 'MySQL driver'.
 
-You can use the diagram image: [a relative link](cornetto_mysql.png), for the database enhanced entity–relationship (EER) diagram.
+You can use the [Diagram image](cornetto_mysql.png) for the database enhanced entity–relationship (EER) diagram.
 This diagram helps you understand how the database is set up and how to write your MySQL queries.
 
 If you got any questions, you can always contact me:
@@ -72,4 +72,4 @@ https://github.com/danger89
 Credits & License
 -----------------
 The Cornetto Convertor to MySQL is created & developed by Melroy van den Berg.
-The code below is under Apache License, Version 2.0. Please check the [a relative link](LICENSE) file for more info.
+The code below is under Apache License, Version 2.0. Please check the [LICENSE](LICENSE) file for more info.
