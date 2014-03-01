@@ -50,6 +50,7 @@ Credits & License
 The Cornetto Convertor to MySQL is created & developed by Melroy van den Berg.
 The code below is under Apache License, Version 2.0. Please check the LICENSE-2.0.txt file for more info.
 
+Copyright 2014 Melroy van den Berg
 """
 
 __author__ = 'Melroy van den Berg <melroy@melroy.org>'
