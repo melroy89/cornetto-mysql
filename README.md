@@ -32,14 +32,15 @@ See the commands below, which should be executed into a terminal.
 6. Done :) You can now use the MySQL version of the Cornetto database!
 
 Enter the commands respectively:
+
 1.
-    mysql -u root -p --show-warnings
+    ```mysql -u root -p --show-warnings```
 
 2. 
-    DROP DATABASE cornetto; CREATE DATABASE cornetto; USE cornetto; source cornetto_mysql_schema.sql; SET GLOBAL max_allowed_packet=1073741824;
+    ```DROP DATABASE cornetto; CREATE DATABASE cornetto; USE cornetto; source cornetto_mysql_schema.sql; SET GLOBAL max_allowed_packet=1073741824;```
 
 3. 
-    source cornetto_mysql_data.sql;
+    ```source cornetto_mysql_data.sql;```
 
 
 Help
